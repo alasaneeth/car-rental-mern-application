@@ -34,6 +34,12 @@ const Navbar = () => {
                  <img src={assets.search_icon} alt='search'/>           
                  
             </div>
+
+            <div className="flex max-sm:flex-col items-start sm:items-center gap-6">
+              <button className='cursor-pointer'>Dashboard</button>  
+              <button className='cursor-pointer px-8 py-2 bg-blue-800
+              hover:bg-blue-400 transition-all  text-white rounded-lg'>Login</button>
+            </div>
         </div>
     </div>
   )
