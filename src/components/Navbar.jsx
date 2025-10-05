@@ -42,6 +42,9 @@ const Navbar = ({setShowLogin}) => {
               hover:bg-blue-400 transition-all  text-white rounded-lg'>Login</button>
             </div>
         </div>
+        <button className='sm:hidden cursor-pointer'>
+            <img src={open ? assets.close_icon : assets.menu_icon} alt='menu' onClick={()=> setOpen(!open)}/>
+        </button>
     </div>
   )
 }
